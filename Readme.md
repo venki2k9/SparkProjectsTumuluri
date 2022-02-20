@@ -36,6 +36,7 @@ lazy val root = (project in file("."))
 
 * Create Scala objects under `scr/main/scala` folder
 * Execution from Intellij would the following setting in Edit debugging configuration
+* Execution in intellij would not allow you to access spark jobs execution dashboard
 
 `Add dependecied with "provided" scope to classpath`
 
